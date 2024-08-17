@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Website</title>
+    <link rel="icon" type="image/x-icon" href="images/bus-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <header>
+      <!-- Navbar Start here  -->
+        <nav class="w-10/12 mx-auto py-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="raleway font-extrabold text-3xl">P-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg font-medium">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-green-100 border-green-300 text-green-500 px-5 text-xl">Bus<img src="images/bus-icon.png" alt="No-Image"></a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End here  -->
+         <!-- Banner Start here  -->
+          <section class="banner bg-[url('images/banner.png')] bg-cover bg-no-repeat bg-center h-[35rem] w-10/12 mx-auto rounded-3xl">
+
+            <div class="banner-content text-white flex flex-col items-center text-center justify-center h-full">
+                <div class="banner-content-item">
+                  <h1 class="raleway text-6xl font-extrabold">End-to-End Travel with <br> <span  class="text-[#1DD100]">P Paribahan</span></h1>
+                  <p class="inter text-lg my-6">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
+                  <a href="#"><button class="raleway font-bold btn bg-[#1DD100] border-none px-5">Buy Ticket</button></a>
+                </div>
+            </div>
+
+          </section>
+         <!-- Banner End here  -->
+         <!-- banner bottom Start here  -->
+          <section class="banner-bottom inter w-8/12 mx-auto flex justify-around text-center">
+            <div class="banner-bottom-item flex gap-4 border-b-green-500 border-b-4 p-5 rounded-2xl bg-white">
+              <div class="banner-bottom-item-img">
+                <img src="images/people.png" alt="">
+              </div>
+              <div class="banner-bottom-item-text">
+                <h2 class="font-bold text-4xl">500K+</h2>
+                <p class="text-lg">Registered users</p>
+              </div>
+            </div>
+            <div class="banner-bottom-item flex gap-4 border-b-green-500 border-b-4 p-5 rounded-2xl bg-white">
+              <div class="banner-bottom-item-img">
+                <img src="images/ticket-cupon.png" alt="">
+              </div>
+              <div class="banner-bottom-item-text">
+                <h2 class="font-bold text-4xl">1.7 lacks</h2>
+                <p class="text-lg">Tickets sold</p>
+              </div>
+            </div>
+            <div class="banner-bottom-item flex gap-4 border-b-green-500 border-b-4 p-5 rounded-2xl bg-white">
+              <div class="banner-bottom-item-img">
+                <img src="images/stoppage.png" alt="">
+              </div>
+              <div class="banner-bottom-item-text">
+                <h2 class="font-bold text-4xl">80K+</h2>
+                <p class="text-lg">Rental partners</p>
+              </div>
+            </div>
+          </section>
+         <!-- banner bottom End here  -->
+    </header>
+    <main class="w-10/12 mx-auto py-10">
+        <section class="offer">
+            <h1 class="raleway text-center text-[2.5rem] font-bold">Best offers for you</h1>
+            <div class="coupon flex justify-between py-8">
+              <div class="coupon-content bg-[#FFBF0F] flex p-10 rounded-xl">
+                <div class="coupon-offer inter pr-48">
+                  <h2 class="font-black text-[2.5rem]">15% OFF</h2>
+                  <p class="text-xl font-semibold">on your next purchase</p>
+                  <p class="text-[#03071280] text-lg font-medium">use by January 2024</p>
+                </div>
+                <div class="coupon-code raleway">
+                  <h2 class="text-3xl	font-bold">NEW15</h2>
+                  <p class="text-xl font-medium text-[#03071266]">Coupon Code</p>
+                </div>
+              </div>
+              <div class="coupon-content bg-[#F78C9C] flex p-10 rounded-xl">
+                <div class="coupon-offer inter pr-48">
+                  <h2 class="font-black text-[2.5rem]">15% OFF</h2>
+                  <p class="text-xl font-semibold">on your next purchase</p>
+                  <p class="text-[#03071280] text-lg font-medium">use by January 2024</p>
+                </div>
+                <div class="coupon-code raleway border-img">
+                  <h2 class="text-3xl	font-bold">NEW15</h2>
+                  <p class="text-xl font-medium text-[#03071266]">Coupon Code</p>
+                </div>
+              </div>
+            </div>
+            <div class="offer-button text-center">
+              <a href="#"><button class="btn btn-outline btn-success">See All Offers</button></a>
+            </div>
+        </section>
+    </main>
+    <footer class="w-10/12 mx-auto bg-black text-white">
+        <div class="footer-top flex justify-around pt-16 pb-8">
+          <div class="footer-top-left">
+              <h2>P-Ticket</h2>
+              <p>P-Ticket is a digital platform to make your <br> daily commuting better.</p>
+          </div>
+          <div class="footer-top-right">
+            <p>Download our app</p>
+            <a href="#"><button><img src="images/Playstore-Button.png" alt="No-Image"></button></a>
+          </div>
+        </div>
+        <div class="footer-bottom"></div>
+    </footer>
+
+</body>
+</html>

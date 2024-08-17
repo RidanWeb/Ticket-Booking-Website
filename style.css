@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.raleway{
+    font-family: "Raleway", sans-serif;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+}
+
+/* banner Section  */
+
+.banner-bottom{
+    position: relative;
+    margin-top: -60px; 
+    transform: translateX(-50%, -50%); 
+    z-index: 1;
+}
+
+/* banner Section  */
+
+/* offer section  */
+.coupon-content{
+    background-image: url(images/cupon-devider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+}
+/* offer section  */
